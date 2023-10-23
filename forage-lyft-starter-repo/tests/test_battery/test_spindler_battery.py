@@ -1,9 +1,9 @@
 import unittest
 from datetime import date
 
-from battery.splinder_battery import SplinderBattery
+from battery.splinder_battery import SpindlerBattery
 
-class TestSplinderBattery(unittest.TestCase):
+class TestSpinlderBattery(unittest.TestCase):
 	def needs_service_true(self):
 		current_date = date.fromisoformat("2020-05-15")
 		last_service_date = date.fromisoformat("2018-01-20")
